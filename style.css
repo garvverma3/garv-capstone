@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+    background: #000000;
+    font-family: "chivo";
+    
+}
+.page1{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.page1 nav{
+
+    
+    height: auto;
+    width: 100%; 
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2vw 2vw; 
+    list-style: none; 
+    border: 1px solid #928DD30F;
+    border-bottom: 1px solid rgb(124, 124, 124);
+
+}
+ 
+ 
+nav .middle{ 
+    font-family: "museoModerno";
+    font-size: 2.6vw; 
+    font-weight: 400;  
+}
+nav .middle h1{
+    
+    font-size: 2.6vw; 
+    font-weight: 400;  
+}
+nav .last{
+    display: flex;
+    gap: 2vw;
+}
+nav .last li{
+    
+    font-size: 2vw;
+    transition: 0.3s ease-in;
+}
+nav .last li:hover{
+    border-bottom: 1px solid #C11D1D;
+}
+ 
+
+.hero-page{
+    padding: 3vw;
+    margin-top: 4.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.hero-page h1{
+    width: 80%;
+    font-weight: 700;
+    text-align: center;
+    font-size: 8vw;
+    line-height: 8vw;
+    font-family: "chivo";
+    transition: color 0.8s ease-in;
+    /*  -family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+}
+ 
+.hero-page img{
+    width: 100%;
+    margin-top: 2vw;
+    object-fit: cover;
+    
+    transition: scale 0.9s ease-in-out;
+    transition: box-shadow 0.7s ease;
+}  
+/**************** page 4 *****************/
+.page2 {
+    height: auto;
+    width: 100%;
+    padding: 1.5vw 2.5vw;
+
+}
+
+.card-div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 31%;
+    height: 37vh;
+    margin-bottom: 6vw;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;  
+}
+ 
+.card h4 {
+   
+    counter-reset: #1B2128;
+    font-weight: 300;
+    font-size: 1.3vw;
+}
+
+.card p {
+    color: rgba(157, 155, 155, 0.803);
+   
+    font-size: 1.1vw;
+}
+
+
+.page3 {
+    height: auto;
+    width: 100%;
+    padding: 3vw;
+}
+
+.page3 p {
+    font-size: 1.4vw;
+    font-weight: 500;  
+    width: 40%;
+    margin-left: auto;  
+    margin-right: 3vw; 
+    text-align: left;  
+}
+ 
+ .page4{
+   padding: 3vw;
+    width: 100%;
+    height: fit-content;
+  display: flex;
+  flex-direction: column;
+
+ }
+ .page4 .cont{
+    background: linear-gradient(175.81deg, rgba(0, 0, 0, 0.9) 27.37%, rgba(146, 141, 211, 0.3) 96.85%);
+
+    border: 1px solid white;
+    padding: 18vw 5vw;
+    border-radius: 1vw;
+ }
+ .page4 .cont h1{
+    font-weight: 900;
+    font-size: 3vw;
+ }
+ .page4 p{ 
+    padding-top: 1vw;
+    font-size: 1.4vw;
+    width: 56%;
+    
+ }
+
+ .page5 {
+    padding: 8vw 3vw;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page5 h1 {
+    width: 60%;
+    text-align: center;
+    font-family: "chivo";
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 3vw;
+}
+
+
+ 
+
+.page6 {
+    height: fit-content;
+    width: 100%;
+    padding: 8vw 3vw;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+.services h1 {
+    font-size: 1.8vw;
+    font-weight: 700;
+    font-family: "chivo";
+}
+
+.graphics {
+    display: flex;
+    gap: 13vw;
+    margin-right: 10vw;
+
+}
+
+.graphics h3 {
+    text-align: left;
+    font-family: "chivo";
+    font-size: 1.4vw;
+    line-height: 2.4vw;
+    font-weight: 700;
+}
+
+.page7 {
+    margin-top: 8vw;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    padding-bottom: 3vw;
+   border-bottom: 1px solid white;
+   margin-bottom: 3vw;
+}
+
+.page7 h2 {
+    font-size: 3.1vw;
+     font-family: "chivo";
+    font-weight: 900;
+    letter-spacing: -0.01vw;
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+.review {
+    padding: 0 2.8vw;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    gap: 2.3vw;
+    overflow-x: scroll;
+    justify-content: space-between;
+}
+.review::-webkit-scrollbar {
+    display: none;  
+}
+.client {
+    height: 13vw;
+    width: 20vw; 
+    border: 1px solid white;
+    border-radius: 1.5vw;
+    padding: 1.6vw; 
+    flex-shrink: 0;
+    flex-grow: 0;
+    transition: scale 0.4s ease-in; 
+}
+ 
+.user-detail {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+.user-detail img {
+    border-radius: 50%;
+    height: 3vw;
+    object-fit: cover;
+}
+
+.user-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name h5 {
+    font-size: 1vw;
+    line-height: 1.6vw;
+    letter-spacing: 0.5%;
+    font-weight: 700; 
+    
+    font-family: "Archivo", serif;
+}
+
+.user-name p {
+    font-family: "Archivo", serif;
+    font-size: 1vw; 
+    letter-spacing: 0.5%;
+    font-weight: 400; 
+ 
+    padding-bottom: 1vw;
+}
+
+ 
+#experience {
+    margin-left: 1.6vw; 
+   
+     margin-top: 1.1vw;
+    color: #aeacac;
+    /* font-size: 20px; */
+    border-left: 1px solid rgb(107, 104, 104);
+    padding-left: 3vw;
+    font-size: 1.2vw; 
+} 
+#amazing{
+    height: 15vw;
+}
+
+
+
+
+
+footer {
+    
+    padding: 3vw;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    margin-bottom: 2vw;
+    text-align: center;
+    font-size: 2.1vw;
+    font-weight: 300;
+    font-family: "archivo";
+}
+footer .input{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 1vw;
+    margin-bottom: 2vw;
+}
+footer .input input{
+    width: 30vw;
+    height: 2.8vw;
+    text-align: left;
+    font-size: 0.9vw;
+    font-family: "archivo";
+
+
+}
+footer .input button{
+    background-color: #928DD3;
+   
+    font-size: 1.2vw;
+  padding: 0.8vw 2vw;
+    font-family: "archivo";
+    border-radius: 0.6vw;
+}
+footer .input button:hover{
+    background-color: #b6b2f6;
+    color: white;
+}
+
+footer .socials{  
+width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+footer .socials i{
+    /* font-size: 8vw; */
+    /* width: 3vw; */
+    scale: 2;
+}
+#facebook, #insta, #x{
+    font-size: 3.5vw;
+    padding-left: 2vw;
+} 
+#x:hover{
+    color: #8e87f6;
+}
+#facebook:hover{
+    color: #8e87f6;
+}
+#insta:hover{
+    color: #8e87f6;
+}
+
+
+
+@media (max-width: 460px){
+   
+     
+    .page1 nav{
+        padding: 0.2vw 2.8vw;
+    
+    }
+    nav .first{ 
+        gap: 1.5vw;
+    }
+    
+    nav .first li{
+        font-size: 2vw;
+        transition: background-color 0.8s ease-;
+    }
+    nav .last li{
+        font-size: 2.6vw;
+    }
+  
+    nav .middle{ 
+        font-size: 3.2vw; 
+    }
+  
+    
+    .hero-page{
+        margin-top: 6.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-page h1{
+        font-size: 8vw; 
+        transition: color 0.8s ease-in;
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    
+    }
+    .hero-page h1:hover{
+        /* color: #cbaaf1; */
+        text-shadow: 4px 4px 8px rgba(153, 70, 248, 0.678);
+     
+    }
+    .hero-page img{
+        width: 98%;
+        margin-top: 2.8vw;
+        
+    }
+    .hero-page img:hover{
+        scale: 0.95;
+        box-shadow: 0 8px 29px rgba(203, 170, 241, 0.6); /* Add shadow on hover */
+    
+     
+    }
+
+    .page2 h2{
+        font-size: 7vw;
+    }
+    .card {
+        width: 100%;
+        height: 30vh;
+        margin-bottom: 15vw;
+       
+    }
+    .card p {
+        text-align: center;
+        font-family: Archivo;
+            font-size: 2vw;
+            font-weight: 500; 
+            padding-bottom: 0.7vw;
+            color: rgba(255, 255, 255, 1);
+            
+    }
+    .card .p1{
+        margin-top: 0.6vw;
+        font-size: 2.8vw;
+    }
+   
+
+      .button1{
+        padding: 1vw 1.4vw;
+        margin-top: 0.7vw;
+       font-size: 2vw;
+    
+      }
+      .button1:hover{
+        background-color: #8e87f6;
+        color: white;
+      }
+    
+    .page3{
+        
+        padding: 1vw 0 3vw 15vw;
+    }
+    .page3 h3{
+        font-size: 3.8vw;
+        
+    }
+    .page3 p{
+        font-size: 2.1vw;
+    }
+    .page3 p{
+        margin-top: 3vw;
+        font-size: 2.8vw;
+        font-weight: 500;  
+        width: 85%;
+        
+    }
+     
+    .form{
+        margin: 6vw 0;
+        height: 52vw;
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form h2{
+        font-size: 4.8vw; 
+         
+    }
+    input{ 
+        margin-top: 2.2vw;
+        height: 7vw;
+        width: 7vw;
+        font-size: 3vw; 
+        padding-left: 1.6vw;
+    }
+    
+    .form button{ 
+        margin-top: 4vw;
+        padding: 0.7vw 13vw;
+       
+    }
+    
+    .form h4{
+        margin-top: 2vw;
+        color: #928DD3; 
+        font-weight: 400;
+    }
+    
+    footer{
+        padding: 2vw 5vw;
+         
+    }
+    footer p{
+        font-size: 2.8vw;
+        color: #ffffff97; 
+    }
+    footer .follow{ 
+        border: 1px solid rgba(151, 130, 130, 0.461);
+        font-size: 2.2vw;
+   
+        padding: 0.6vw 1.8vw;
+       
+    }
+    
+    }
